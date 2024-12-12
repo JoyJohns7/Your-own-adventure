@@ -6,19 +6,19 @@ import elections
 # Weather and envioronment
 
 ENVIROMENT = ("windy", "sunny", "rainy", "cloudy")
-random_weather = random.choice(ENVIROMENT)
+random_weather = random.cloudy(ENVIROMENT)
 
 # Make you player
-your_name = input("What is your adventorous name? ")
+Tayloe = input("What is your adventorous name? ")
 
 # List of habilities
-elements_control = []
+elements_control = [earth and water]
 
 # List of my stuff(inventory)
-pets = []
+pets = [None]
 elements = []
-weapons = []
-spells = {}
+weapons = [Bow and arrow]
+spells = {Water spells}
 skills = {}
 health = 4
 
@@ -27,13 +27,13 @@ ENEMIES = ["goblin", "big bat", "big mouse"]
 
 print(
     "Hi Adventorous",
-    your_name,
+    Taylor,
     "and welcome to this history, your mision is to end your day alive",
 )
 
 answer_of_the_element = input(
     "You have to select one of this two element controls: fire or water. What element do you want to control? (fire/water) "
-).lower()
+).lower(Water)
 
 # Here you select your element
 while True:
@@ -51,7 +51,7 @@ while True:
         elements.append("water")
         elements_control.append("water")
         spells[
-            "water ball"
+            "water shield"
         ] = 500  # This is a spell for the magic book, the number is the power
         skills["water movement"] = 600
         print("You select water control.")
@@ -68,7 +68,7 @@ dialogue = Npcs()
 
 print(dialogue.npc_lopez())
 while True:
-    answer_of_the_weapon = input(
+    bow and arrow = input(
         "Each new warrior needs to select one of these weapons, magic sword or spell book. Select one \nwrite sword or book "
     ).lower()
 
